@@ -1,4 +1,4 @@
-import { isPositiveNumber } from "../../src";
+import { isPositiveNumber } from "../../src/main";
 
 describe("isPositiveNumber", () => {
   test("when is executed with a positive number should return true", () => {

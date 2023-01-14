@@ -4,6 +4,8 @@
   "description": "Skeleton for new typescript services based on hexagonal architecture",
   "main": "src/index.js",
   "scripts": {
+    "start": "node dist/src/main.js",
+    "start:dev": "tsnd --respawn src/main.ts",
     "test": "npm run test:unit",
     "test:unit": "NODE_ENV=test jest --coverage",
     "prepare": "husky install",
@@ -35,6 +37,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@types/express": "^4.17.15",
     "@types/jest": "^29.2.5",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
@@ -54,5 +57,10 @@
     "*.(js|ts)": [
       "npm run lint:fix"
     ]
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
   }
 }
