@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+
 import { WelcomeMessageSender } from "../../application/welcome-message-sender";
 
 export class UserController {

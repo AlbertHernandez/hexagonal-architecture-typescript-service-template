@@ -1,4 +1,5 @@
 import express from "express";
+
 import { userController } from "../dependencies";
 
 const userRouter = express.Router();

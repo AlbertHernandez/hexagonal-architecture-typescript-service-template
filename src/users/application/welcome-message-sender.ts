@@ -1,6 +1,6 @@
 import { EmailSender } from "../../shared/domain/email-sender";
-import { UserRepository } from "../domain/user-repository";
 import { Logger } from "../../shared/domain/logger";
+import { UserRepository } from "../domain/user-repository";
 
 export class WelcomeMessageSender {
   constructor(
