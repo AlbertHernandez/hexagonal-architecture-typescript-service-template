@@ -1,11 +1,11 @@
 <h1 align="center">Typescript Library Skeleton</h1>
 
 <p align="center">
-  Skeleton for new typescript libraries
+  Skeleton for new typescript services based on hexagonal architecture
 </p>
 
 <p align="center">
-    <a href="https://github.com/AlbertHernandez/typescript-library-skeleton/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/typescript-library-skeleton/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
+    <a href="https://github.com/AlbertHernandez/hexagonal-architecture-typescript-service-skeleton/actions/workflows/nodejs.yml?branch=main"><img src="https://github.com/AlbertHernandez/hexagonal-architecture-typescript-service-skeleton/actions/workflows/nodejs.yml/badge.svg?branch=main" alt="nodejs"/></a>
 </p>
 
 ## Table of Contents
@@ -26,14 +26,6 @@ nvm install 18.0.0
 nvm use
 npm install npm@8.3.0 -g
 npm install
-```
-
-## Playground
-
-This library offers a playground where we can play with the functions that we are developing
-
-```bash
-npm run playground
 ```
 
 ## Building
@@ -66,4 +58,4 @@ npm run lint:fix
 
 ## Contributing
 
-Contributions welcome! See the [Contributing Guide](https://github.com/AlbertHernandez/typescript-library-skeleton/blob/main/CONTRIBUTING.md).
+Contributions welcome! See the [Contributing Guide](https://github.com/AlbertHernandez/hexagonal-architecture-typescript-service-skeleton/blob/main/CONTRIBUTING.md).

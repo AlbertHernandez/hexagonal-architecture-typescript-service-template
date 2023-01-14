@@ -1,7 +1,7 @@
 {
-  "name": "typescript-library-skeleton",
+  "name": "hexagonal-architecture-typescript-service-skeleton",
   "version": "1.0.0",
-  "description": "Skeleton for new typescript libraries",
+  "description": "Skeleton for new typescript services based on hexagonal architecture",
   "main": "src/index.js",
   "scripts": {
     "test": "npm run test:unit",
@@ -9,18 +9,17 @@
     "prepare": "husky install",
     "lint": "eslint --ignore-path .gitignore . --ext .js,.ts",
     "lint:fix": "npm run lint -- --fix",
-    "playground": "ts-node-dev --respawn playground",
     "build": "npm run build:clean && npm run build:tsc",
     "build:clean": "rimraf dist; exit 0",
     "build:tsc": "tsc -p tsconfig.prod.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlbertHernandez/typescript-library-skeleton.git"
+    "url": "git+https://github.com/AlbertHernandez/hexagonal-architecture-typescript-service-skeleton.git"
   },
   "keywords": [
     "typescript",
-    "library",
+    "hexagonal architecture",
     "skeleton"
   ],
   "author": "alberthernandezdev@gmail.com",
@@ -30,9 +29,9 @@
     "npm": ">=9.3.0"
   },
   "bugs": {
-    "url": "https://github.com/AlbertHernandez/typescript-library-skeleton/issues"
+    "url": "https://github.com/AlbertHernandez/hexagonal-architecture-typescript-service-skeleton/issues"
   },
-  "homepage": "https://github.com/AlbertHernandez/typescript-library-skeleton#readme",
+  "homepage": "https://github.com/AlbertHernandez/hexagonal-architecture-typescript-service-skeleton#readme",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
