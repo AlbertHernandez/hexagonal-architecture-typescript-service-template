@@ -10,7 +10,9 @@ export class WelcomeMessageSender {
   ) {}
 
   async sendToUser(userId: string): Promise<void> {
-    this.logger.info(`[WelcomeMessageSender] - Sending welcome email to user: ${userId}`);
+    this.logger.info(
+      `[WelcomeMessageSender] - Sending welcome email to user: ${userId}`
+    );
 
     const user = await this.userRepository.getById(userId);
 
@@ -23,6 +25,8 @@ export class WelcomeMessageSender {
     const message = "Welcome dev!";
     await this.emailSender.sendMessage(user.email, message);
 
-    this.logger.info("[WelcomeMessageSender] - Successfully sent the welcome message to the user");
+    this.logger.info(
+      "[WelcomeMessageSender] - Successfully sent the welcome message to the user"
+    );
   }
 }
