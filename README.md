@@ -1,4 +1,4 @@
-<h1 align="center">Typescript Library Skeleton</h1>
+<h1 align="center">Hexagonal Architecture Typescript Service Skeleton</h1>
 
 <p align="center">
   Skeleton for new typescript services based on hexagonal architecture
@@ -10,16 +10,12 @@
 
 ## Table of Contents
 
-* [Preparing environment to contribute](#preparing-environment)
-* [Playground](#playground)
+* [Installing](#installing)
 * [Building](#building)
 * [Testing](#testing)
 * [Linting](#linting)
-* [Contributing](#contributing)
 
-## Preparing environment to contribute
-
-This library has been designed to work with node v16 and npm 8. In order to configure your local environment you can run:
+## Installing
 
 ```bash
 nvm install 18.0.0
@@ -55,7 +51,3 @@ Fix lint issues automatically
 ```bash
 npm run lint:fix
 ```
-
-## Contributing
-
-Contributions welcome! See the [Contributing Guide](https://github.com/AlbertHernandez/hexagonal-architecture-typescript-service-skeleton/blob/main/CONTRIBUTING.md).
