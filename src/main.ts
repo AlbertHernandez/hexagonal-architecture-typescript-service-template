@@ -6,7 +6,7 @@ import express from "express";
 import { config } from "./shared/infrastructure/config";
 import { userRouter } from "./users/infrastructure/rest-api/user-router";
 
-function boostrap() {
+function bootstrap() {
   const app = express();
 
   app.use(bodyParser.json());
@@ -19,4 +19,4 @@ function boostrap() {
   });
 }
 
-boostrap();
+bootstrap();
